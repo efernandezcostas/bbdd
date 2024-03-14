@@ -1,0 +1,10 @@
+
+ th10 
+impedir que se poida hospitalizar a un asegurado de 2ª categoría si o médico que realiza a hospitalización non esta adscrito a mesma area da que procede o paciente
+
+insert into hosp2 values('h1','p11',1,'m1','1/1/1970','1/2/1970');
+-- o médico  non esta adscrito a mesma area da que procede o paciente
+insert into hosp2 values('h1','p1',1,'m1','1/1/1970','1/2/1970');
+--asegurado non existente ou non de 2ª categoria
+insert into hosp2 values('h1','p1',2,'m1','1/1/1970','1/2/1970');
+-- inserción levada a cabo
